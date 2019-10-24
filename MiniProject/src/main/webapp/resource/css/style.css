@@ -1,0 +1,113 @@
+@charset "UTF-8";
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: Roboto;
+	overflow-x: hidden;
+	overflow-y:hidden; 
+}
+#body-login{
+	background-color: #00909C;
+	
+}
+/* START css đăng nhập*/
+#body-flex-login{
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#container-login{
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+}
+
+#container-login-left{
+	width: 384px;
+	height: 610px;
+	background-color: red;
+	background-image: url("../img/anhnen.jpg");
+	background-size: cover;
+	opacity: 0.8;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-login{
+	margin-top: 32px;
+}
+#header-top-left{
+	text-align: center;
+	color: white;
+}
+.container-login-left-text{
+	font-size: 12px;
+}
+#header-bottom-left{
+	margin-bottom: 64px;
+	margin-left: 8px;
+}
+#header-bottom-left span{
+	color: white;
+	margin-left: 8px;
+}
+#container-login-right{
+	padding: 0 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+}
+#header-top-right{
+	font-size: 20px;
+	color: #B7B7B7;
+}
+
+.actived{
+	color: #DA7C79;
+}
+#social-icon{
+	align-self: flex-end;
+	margin-bottom: 16px;
+}
+/*.text-input{
+	height: 38px;
+	width: 100%;
+	background-color: #D8D8D8;
+	border: 0;
+}*/
+#container-center-login input[type=text]{
+	margin-top: 8px;
+}
+#container-center-login input[type=submit]{
+		margin-top: 24px;
+		color: white;
+		font-size: 14px;
+}
+.primary-button{
+	height: 38px;
+	width: 100%;
+	background-color: #00909C;
+	border: 0;
+}
+.input-icon-email{
+	background: url(../img/gmail.png) no-repeat scroll 11px 12px;
+    height: 38px;
+    width: 91%;
+    background-color: #D8D8D8;
+    border: 0;
+    padding-left: 36px;
+}
+.input-icon-password{
+	background: url(../img/locked.png) no-repeat scroll 11px 12px;
+    height: 38px;
+    width: 91%;
+    background-color: #D8D8D8;
+    border: 0;
+    padding-left: 36px;
+}
+/* END css đăng nhập*/
